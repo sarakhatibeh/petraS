@@ -3,12 +3,19 @@ alert("Welcom To Petra Website")
 
 let userName = prompt(" What Is your Name?")
 
+
+
+
 let userCountry = prompt(" Where Are You From?")
 
-if (usercountry === "jordan"){alert ("welcom")}
+// console.log(userCountry);
+
+if (userCountry === "jordan"){alert ("welcom")}
 else {alert ("WElcom To Jordan")}
+
+
  
-let visit = prompt (Did you visit jordan befor ?)
+let visit = prompt("Did you visit jordan befor?")
 
 let favPlace = prompt("Favorite tourist areas in Jordan : Dead sea, Aqaba, Petra")
 
@@ -17,6 +24,11 @@ function favPlaceFun() {
 
       favPlace = prompt("please enter on of : Dead sea, Aqaba, Petra");
    }
+
+favPlaceFun();
+
+console.log (favPlaceFun);
+
 
    let x = prompt("how many times do you want to see a camel image ?")
 
@@ -36,3 +48,4 @@ let camelFun = function () {
 
 }
 camelFun()
+}
