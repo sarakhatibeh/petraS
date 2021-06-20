@@ -1,0 +1,24 @@
+
+
+body{background-image: url(https://www.alaraby.co.uk/sites/default/files/media/images/FF8DE37C-CB8A-4A34-AEEA-75629934DFDF.jpg)
+
+}
+h1{
+text-align: center;
+color:white;}
+
+h2{ text-align: center;
+color: white;}
+p{ color: white;}
+
+h3{ color:whitesmoke;
+text-align:center;}
+li{ display:inline-block;
+width: 200px;
+float:right;}
+
+article{ clear:both
+}
+
+section{float: right;
+    border : 1px solid white;}
